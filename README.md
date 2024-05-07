@@ -1,4 +1,4 @@
-# ForensicArtifacts
+# Uncommon Forensic Artifacts
 
 # Table of Contents
 1. [RMM Tools](#RMM-Tools)
