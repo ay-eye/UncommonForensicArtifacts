@@ -3,7 +3,7 @@
 # Table of Contents
 1. [RMM Tools](#RMM-Tools)
     1. [AnyDesk](#AnyDesk)
-    2. [ConnectWise (ScreenConnect)](#ConnectWise-(ScreenConnect))
+    2. [ConnectWise (ScreenConnect)](#ConnectWise)
     3. [TeamViewer](#TeamViewer)
 
 ------------------------------------
@@ -95,7 +95,7 @@ Portal execution relies on a signature DLL: `GCAPI.DLL`
 
 ------------------------------------
 
-### ConnectWise (ScreenConnect)
+### ConnectWise
 Two flavors: 
 1. On-premise
 2. Cloud-based (14-day trial, no credit card)
