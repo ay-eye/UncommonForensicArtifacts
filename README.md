@@ -5,6 +5,7 @@
     1. [AnyDesk](#AnyDesk)
     2. [ConnectWise (ScreenConnect)](#ConnectWise)
     3. [TeamViewer](#TeamViewer)
+    4. [ScreenConnect](#ScreenConnect)
 
 ------------------------------------
 
@@ -208,3 +209,30 @@ C:\Program Files\TeamViewer
 - https://forensafe.com/blogs/teamviewer.html
 - https://medium.com/mii-cybersec/digital-forensic-artifact-of-teamviewer-application-cfd6290dc0a7
 - https://www.systoolsgroup.com/forensics/teamviewer/
+
+------------------------------------
+
+### ScreenConnect
+
+#### Logs
+```
+System Windows Event Logs
+Application Windows Event Logs
+Powershell Windows Event Logs
+```
+
+`System Windows Event Logs`
+- EID 7045
+    - Installation of ScreenConnect service
+
+`Application Windows Event Logs`
+- EID 0
+    - Start of remote session
+    - Closing of remote sessions
+    - File upload/transfer (contains a list of files transferred)
+    - Command execution (only lists length of command)
+        - Manually-executed shell commands are executed via `.cmd` scripts ("`"cmd.exe" /c "C:\Windows\TEMP\ScreenConnect\<version>\<uuid>run.cmd`"")
+        - Tasks are executed via `.ps1` scripts
+
+#### Resources
+- https://www.huntandhackett.com/blog/revil-the-usage-of-legitimate-remote-admin-tooling
