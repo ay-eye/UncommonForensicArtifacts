@@ -273,7 +273,7 @@ SRUM: C:\System32\sru\SRUDB.dat
 - Unencrypted
 - Tracks historic sessions
 - Chromium SQLite database
-- Records URLs/netowrk info during the sessions
+- Records URLs/network info during the sessions
     - `https://remoteassistance.support.services.microsoft[.]com/screenshare`
         - tracks number of remote sessions
         - timestamp is for the most recent session
