@@ -262,7 +262,7 @@ SRUM: C:\System32\sru\SRUDB.dat
 ```
 
 `RDP Artifacts`
-- Quick Assist process relies on uses RDP for remote connections
+- Quick Assist process uses RDP for remote connections
 
 `C:\System32\sru\SRUDB.dat`
 - Connections from the quickassist process over the last 60 days
