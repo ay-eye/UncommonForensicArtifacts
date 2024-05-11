@@ -6,6 +6,8 @@
     2. [ConnectWise (ScreenConnect)](#ConnectWise)
     3. [TeamViewer](#TeamViewer)
     4. [ScreenConnect](#ScreenConnect)
+    5. [Quick Assist](#Quick-Assist)
+
 
 ------------------------------------
 
