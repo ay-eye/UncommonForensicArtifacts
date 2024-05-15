@@ -178,7 +178,7 @@ C:\Program Files\TeamViewer
 `C:\Program Files\TeamViewer\Connections_incoming.txt`
 - Connected TeamViewer ID
 - Date and time the connection started
-- TeamViewer Mode (`Remote Control` (Remote Desktop) or `File Transfer` (Only file transfers))`
+- TeamViewer Mode (`Remote Control` (Remote Desktop) or `File Transfer` (Only file transfers))
 - Date and time the connection ended
 - Connected device name
 - Connected user name
