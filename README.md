@@ -1,17 +1,21 @@
 # Uncommon Forensic Artifacts
 
 # Table of Contents
-1. [RMM Tools](#RMM-Tools)
+1. [Remote Access](#Remote-Access)
     1. [AnyDesk](#AnyDesk)
     2. [ConnectWise (ScreenConnect)](#ConnectWise)
     3. [TeamViewer](#TeamViewer)
     4. [ScreenConnect](#ScreenConnect)
+<<<<<<< HEAD
     5. [Quick Assist](#Quick-Assist)
 
+=======
+    5. [CloudflareD](#CloudflareD)
+>>>>>>> cd97033 (added cloudflared)
 
 ------------------------------------
 
-## RMM Tools
+## Remote Access
 
 ### AnyDesk
 Three execution modes: 
@@ -307,4 +311,23 @@ SRUM: C:\System32\sru\SRUDB.dat
 - https://www.johncysa.com/forensics-quick-assist
 - https://hackuponthegale.github.io/blog/dfir/QuickAssist1
 - https://learn.microsoft.com/en-us/windows/client-management/client-tools/quick-assist
+<<<<<<< HEAD
  
+=======
+
+------------------------------------
+
+### Cloudflared
+
+Establishes a tunnel through CLoudflare that allows for external entities to directly access services such as SMB, RDP, and SSH.
+
+#### Logs
+```
+Cmdline arguments including: "tunnel", "run", "--token"
+DNS: .*argotunnel[.]com
+Firewall: destination port of 7844
+Firewall and AV logs will also likely show a handful of Cloudflared IPs utilized by the tunnel
+```
+#### Resources
+- https://www.guidepointsecurity.com/blog/tunnel-vision-cloudflared-abused-in-the-wild/
+>>>>>>> cd97033 (added cloudflared)
