@@ -6,12 +6,9 @@
     2. [ConnectWise (ScreenConnect)](#ConnectWise)
     3. [TeamViewer](#TeamViewer)
     4. [ScreenConnect](#ScreenConnect)
-<<<<<<< HEAD
     5. [Quick Assist](#Quick-Assist)
+    6. [CloudflareD](#CloudflareD)
 
-=======
-    5. [CloudflareD](#CloudflareD)
->>>>>>> cd97033 (added cloudflared)
 
 ------------------------------------
 
@@ -330,4 +327,3 @@ Firewall and AV logs will also likely show a handful of Cloudflared IPs utilized
 ```
 #### Resources
 - https://www.guidepointsecurity.com/blog/tunnel-vision-cloudflared-abused-in-the-wild/
->>>>>>> cd97033 (added cloudflared)
