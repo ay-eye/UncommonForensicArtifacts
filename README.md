@@ -308,9 +308,6 @@ SRUM: C:\System32\sru\SRUDB.dat
 - https://www.johncysa.com/forensics-quick-assist
 - https://hackuponthegale.github.io/blog/dfir/QuickAssist1
 - https://learn.microsoft.com/en-us/windows/client-management/client-tools/quick-assist
-<<<<<<< HEAD
- 
-=======
 
 ------------------------------------
 
